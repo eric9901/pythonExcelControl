@@ -23,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spreadSheetRead.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="513">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spreadSheetWrite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="412">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -65,9 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="178" />
+    <option name="y" value="27" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -76,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,13 +87,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -203,14 +203,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="143" y="22" width="1400" height="784" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22523117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35582823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,10 +230,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/exceltrial.py" />
-    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+    <entry file="file://$PROJECT_DIR$/excelread">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/excelread">
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonExcelControl.py">
@@ -241,15 +241,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spreadSheetRead.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="513">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spreadSheetWrite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="412">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
