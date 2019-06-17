@@ -1,12 +1,27 @@
 from openpyxl import load_workbook       #load the packect for I/O excelfile
 
-wb = load_workbook('testcase1.xlsx')     #load the excel file
-print(wb.sheetnames)              #get the sheet name that are reading
+def loadXFile(fileName):
+    wb = load_workbook(fileName+'.xlsx')     #load the excel file
+    return wb;
+
+def loadSheet(sheetname):                 #有local variable 係def , 係主程式係global
+    if(sheetname=="active"):
+        a_sheet=wb.active
+    else:
+        a_sheet=wb[sheetname]
+    return a_sheet
+
+def showSheetName():
+    print(wb.sheetnames)
+
+#main coding
+wb=loadXFile('testcase1')
+showSheetName()             #get the sheet name that are reading
 
 a_sheet= wb['工作表1']#get the sheet that by the sheet name
 print(a_sheet)
 
-sheet=wb.active                          #get the sheet that are reading
+sheet=loadSheet('active')                          #get the sheet that are reading
 b4=sheet['B4']
 
 print(f'({b4.column}, {b4.row}) is {b4.value}') # f係f-string 即Literal String Interpolatio, 可以用大括號係同一''內用var name 表示var value
