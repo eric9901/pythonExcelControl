@@ -6,17 +6,19 @@ class ExcelControl(wx.Frame):  #frame for excel control panel
 
         # create a panel in the frame
         pnl = wx.Panel(self)
+        pnl.SetSizer(wx.BoxSizer())
 
         # and put some text with a larger bold font on it
-        st = wx.StaticText(pnl, label="Excel worker", pos=(25, 25))
+        st = wx.StaticText(pnl, label="Xlas File Processer", pos=((25), 25))
         font = st.GetFont()
         font.PointSize += 10
         font = font.Bold()
         st.SetFont(font)
-
+        st2 = wx.StaticLine(pnl, pos=(25,100))
         # create a menu bar
         self.makeMenuBar()
-
+        #self.CreateToolBar()
+        #self.SetToolBar()
 # and a status bar
         self.CreateStatusBar()
         self.SetStatusText("Welcome to Excel Worker!")
@@ -73,15 +75,16 @@ class ExcelControl(wx.Frame):  #frame for excel control panel
 
     def OnAbout(self, event):
         """Display an About Dialog"""
-        wx.MessageBox("This is a wxPython Hello World sample",
-                      "About Hello World 2",
+        wx.MessageBox("This is a program that for process the xlsx file by python language instead of SQL code.\n "+
+                      "This program now only support read and write the xlas file",
+                      "About this program.",
                       wx.OK|wx.ICON_INFORMATION)
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     # When this module is run (not imported) then create the app, the
     # frame, show it, and start the event loop.
-    app = wx.App()
-    frm = ExcelControl(None, title='Hello World 2')
-    frm.Show()
-    app.MainLoop()
+app = wx.App()
+frm = ExcelControl(None,title='excelProcessor/',pos=(60,60),size=(1000,600))
+frm.Show()
+app.MainLoop()
